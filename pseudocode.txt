@@ -1,0 +1,21 @@
+PROGRAM Antrean_Kantin
+MULAI
+    // Bagian Deklarasi Variabel (opsional namun disarankan untuk kejelasan)
+    DEKLARASI
+        nama_pembeli : STRING
+        jumlah_makanan : INTEGER
+        harga_makanan : INTEGER
+        total_pembayaran : INTEGER
+    
+    // Bagian Input
+    BACA nama_pembeli
+    BACA jumlah_makanan
+    BACA harga_makanan
+    
+    // Bagian Proses
+    HITUNG total_pembayaran = jumlah_makanan * harga_makanan
+    
+    // Bagian Output
+    TAMPILKAN "Nama: ", nama_pembeli
+    TAMPILKAN "Total yang harus dibayar: Rp", total_pembayaran
+SELESAI
