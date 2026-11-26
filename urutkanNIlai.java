@@ -5,7 +5,6 @@ public class urutkanNIlai  {
         System.out.print("Data sebelum diurutkan : ");
         tampilkanArray(nilai);
 
-        // Proses Bubble Sort (Ascending / terkecil ke terbesar)
         for (int i = 0; i < nilai.length - 1; i++) {
             for (int j = 0; j < nilai.length - 1 - i; j++) {
                 if (nilai[j] > nilai[j + 1]) {
@@ -21,7 +20,6 @@ public class urutkanNIlai  {
         tampilkanArray(nilai);
     }
 
-    // Method bantu untuk mencetak isi array
     static void tampilkanArray(int[] arr) {
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + " ");
